@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    font-family: "Lexend Mega",sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%; 
+}
+a{
+    color: black;
+}
+h2,h3,h4,p{
+    margin:0;
+    padding: 10px;
+
+}
+header{
+    text-align: center;
+}
+.item{
+    text-decoration: underline;
+    
+}
+.main{
+    padding-top: 35px;
+    opacity: 0.9;
+}
+.mission{
+    display: flex;
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    height: 300px;
+    padding-top: 35px;
+}
+.mission .content{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+#portfolio{
+    min-height: 500px;
+    margin: auto;
+    padding-top:70px;
+}
+.com{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.company img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+.company span{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+#team-container{
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+.team{
+    background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    display:flex;
+    padding-top: 75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.teammate{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+.teammate img{
+    
+    width: 200px;
+    height: auto;
+}
+.copyright,.contact{
+    padding-top:20px;
+}
